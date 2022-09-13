@@ -21,6 +21,7 @@ const Dashboard = (props) => {
                 <Total />
                 <AddCar carTotal={props.cars.length} />
             </div>
+            
             <Table>
                 <TableHead>
                     <TableRow>
